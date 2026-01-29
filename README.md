@@ -1,16 +1,28 @@
-# React + Vite
+# St.Ives Haven
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built has an ecommerce page with varieties of products listed out
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Responsive Product and Ingredient Grid**: I utilized the use of grid and its styles to work on most of my components
+- ** Sidebar Cart**:I built a sidebar where the users get to view all the items they've included in their cart
+- ** Cart Logic**:
+  - ** Increments and decrements**: In the cart the user can increase or decrease the quantity of products
+  - **Auto-Removal**: This removes items whose quantity falls below 1, out of the cart list
+  - **Price Calculation**: We calculate the subtotal and grandtotal of the product prices and display it in the cart
+- **UI/UX Optimization**:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🛠️ Technical Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React](https://reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+- `components/`: Reusable UI elements like `Button`, `IconWrapper`, and `ProductCard`.
+- `assets/`: Holds the images for our various products
+- `data/`: Contains the mock data of the products used in the website
